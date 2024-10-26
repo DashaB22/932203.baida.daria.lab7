@@ -1,0 +1,34 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  div.printBlock {
+    margin-bottom: 20px;
+    padding-right: 5px;
+  }
+  
+  .printBlock div {
+    display: inline;
+  }
+  
+  .Class_button_Kub button,
+  .Class_button_Сircle button,
+  .Class_button_Triangle button {
+    width: 10em;
+    cursor: pointer;
+  }
+  
+  #graph {
+    width: 100%;
+    height: 100%;
+  }
